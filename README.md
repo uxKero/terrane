@@ -13,7 +13,7 @@ React components, raw SVG and path strings. One path per icon, 24×24 grid, `cur
 
 <br>
 
-[Browse the icons](https://terrane.vercel.app) · [npm](https://www.npmjs.com/package/terrane) · [Play Terrane Daily](https://terrane.vercel.app/?daily=1)
+[Browse the icons](https://terrane-icons.vercel.app) · [npm](https://www.npmjs.com/package/terrane) · [Play Terrane Daily](https://terrane-icons.vercel.app/?daily=1)
 
 </div>
 
@@ -106,7 +106,7 @@ import relief from 'terrane/relieve/paises/argentina.webp'
 Paste this into Claude Code, Cursor, Codex or any coding agent:
 
 ```text
-Install terrane (npm i terrane) and use it for country, region and continent icons. Read https://terrane.vercel.app/llms.txt for the component names.
+Install terrane (npm i terrane) and use it for country, region and continent icons. Read https://terrane-icons.vercel.app/llms.txt for the component names.
 ```
 
 ## License
