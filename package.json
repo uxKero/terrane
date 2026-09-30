@@ -1,0 +1,90 @@
+{
+  "name": "terrane",
+  "version": "0.1.0",
+  "description": "Filled SVG silhouettes of every country, continent and region, as React components and raw SVG.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./svg": {
+      "import": {
+        "types": "./dist/variantes.d.ts",
+        "default": "./dist/variantes.js"
+      },
+      "require": {
+        "types": "./dist/variantes.d.cts",
+        "default": "./dist/variantes.cjs"
+      }
+    },
+    "./paths": {
+      "import": {
+        "types": "./dist/paths.d.ts",
+        "default": "./dist/paths.js"
+      },
+      "require": {
+        "types": "./dist/paths.d.cts",
+        "default": "./dist/paths.cjs"
+      }
+    },
+    "./icons/*": "./icons/*",
+    "./relieve/*": "./relieve/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "icons",
+    "relieve",
+    "README.md",
+    "LICENSE",
+    "DATA-LICENSES.md"
+  ],
+  "keywords": [
+    "icons",
+    "svg",
+    "svg-icons",
+    "react",
+    "countries",
+    "continents",
+    "regions",
+    "states",
+    "provinces",
+    "silhouettes",
+    "maps",
+    "geography",
+    "world",
+    "symbols"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxKero/terrane.git"
+  },
+  "homepage": "https://terrane.vercel.app",
+  "bugs": {
+    "url": "https://github.com/uxKero/terrane/issues"
+  },
+  "author": "Kero (https://x.com/uxKero)"
+}
